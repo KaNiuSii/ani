@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #e43ac7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+pre {
+    font-family: Arial, sans-serif;
+    white-space: pre-wrap;               /* Since preformatted text can break layout */
+    word-wrap: break-word;               /* To prevent horizontal scrolling */
+    text-align: center;                  /* Center the heart shape */
+    color: #6a0dad;                      /* Match the color to your theme */
+}
